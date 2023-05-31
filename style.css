@@ -1,0 +1,90 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 2.5vw;
+    position: absolute;
+}
+
+header > picture > img{
+    width: 100%;
+}
+
+#tabs li {
+    padding-top:-1px;
+    padding-bottom:5px;
+    margin-bottom: 30px;
+}
+
+#tabs img {
+    border-radius: 2.5vw;
+    width: 25%;
+    position: absolute;
+    top: -2vw;
+    max-width: 90%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+section > h3 {
+    margin-left: 1vw;
+    margin-right:1vw;
+    text-align: center;
+    margin-top: 0px;
+}
+
+li > a > h3{
+    text-align: end;
+    padding-right: 5vw;
+}
+
+li > a > p{
+    text-align: end;
+    padding-right: 5vw;
+    padding-top: 0px;
+}
+
+#site-nav {
+    border-radius: 2.5vw;
+    background-color: rgb(85, 85, 85);
+}
+
+
+ul > li {
+    background-color: white;
+    border-radius: 3.5vw;
+    position: relative;
+}
+
+/* Adventure Page Styles */
+#tagline {
+    background-color:red;
+}
+
+#nav > #nav-list > ul {
+    z-index: -1;
+}
+
+#nav > #nav-list > ul > li {
+    background-color: #fc7b25;
+    display: inline-block;
+    width: 13vw;
+    border-radius: 0px 0px 15px 15px;
+    height: 50px;
+    margin: -4vw 0 0 0;
+    position: relative;
+}
+
+#nav > #nav-list > ul > li > a > h3 {
+    font-size: 2vw;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+footer {
+    margin-top: 50px;
+}
